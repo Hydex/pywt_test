@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+'''
+对于各种频率的子带宽都显示出来 
+'''
 
 from PIL import Image  # PIL
 import numpy
