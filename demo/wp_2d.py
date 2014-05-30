@@ -9,7 +9,6 @@ import os,sys
 from PIL import Image  # PIL
 import numpy
 import pylab
-
 from pywt import WaveletPacket2D
 
 '''
@@ -18,7 +17,7 @@ arr = numpy.fromstring(im.tostring(), numpy.uint8)
 arr.shape = (im.size[1], im.size[0])
 '''
 
-arr = cv2.imread("data/na.png")
+arr = cv2.imread("data/font.png")
 arr = cv2.cvtColor(arr, cv2.COLOR_BGR2GRAY)
 
 #WaveletPacket2D 只能处理灰度 图片所以arr应该先转换
