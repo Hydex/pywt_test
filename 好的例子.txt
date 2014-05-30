@@ -1,0 +1,7 @@
+
+
+http://jseabold.net/blog/2012/02/23/wavelet-regression-in-python/
+
+
+用别的库做小波变换
+http://mlpy.sourceforge.net/docs/3.3/wavelet.html#module-mlpy.wavelet
