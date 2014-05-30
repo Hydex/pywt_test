@@ -6,6 +6,9 @@
 """1D and 2D Wavelet packet transform module."""
 
 __all__ = ["BaseNode", "Node", "WaveletPacket", "Node2D", "WaveletPacket2D"]
+import os , sys
+#由于台式机上面安装不成功pywt
+sys.path.append(r'D:\workspaces\aptana3\pywt_test\src')
 
 import numerix
 from _pywt import Wavelet, dwt, idwt, dwt_max_level
